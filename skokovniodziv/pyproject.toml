@@ -14,7 +14,11 @@ dependencies = [
 ]
 
 [project.scripts]
-skokovniodziv = "skokovniodziv:main"
+skokovniodziv = "src:main"
+
+[tool.uv.build-backend]
+module-name = "src"
+module-root = ""
 
 [build-system]
 requires = ["uv_build>=0.13.5,<0.14.0"]
