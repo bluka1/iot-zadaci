@@ -1,6 +1,20 @@
 # Skokovni odziv
 
-Dio zadatka namijenjen prikazu skokovnog odziva u Pythonu.
+## Zadaci a, b i c
+
+![Zadatak 1a, 1b i 1c](1abc.png)
+
+## Zadaci d i e
+
+![Zadatak 1d i 1e](1de.png)
+
+## Zadatak f
+
+Zadatak f je napravljen unutar ove mape.
+
+Slika skokovnog odziva izrađena pomoću Python koda:
+
+![skokovniodziv](skokovniodziv.png)
 
 ## Osvrt na izračun
 
