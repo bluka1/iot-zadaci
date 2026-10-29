@@ -7,3 +7,7 @@
 ## Zadatak c
 
 ![Zadatak 2c](2c.png)
+
+## Zadatak d
+
+![Zadatak 2d](2d.png)
