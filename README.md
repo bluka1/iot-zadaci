@@ -10,4 +10,4 @@ Zadatak 2 je napravljen u mapi [impulsniodziv](./impulsniodziv)
 
 ## Zadatak 3
 
-Zadatak 3 je napravljen u mapi [impulsniodziv](./stabilnost)
+Zadatak 3 je napravljen u mapi [stabilnost](./stabilnost)
