@@ -1,0 +1,15 @@
+[project]
+name = "internet-stvari"
+version = "0.1.0"
+requires-python = ">=3.15"
+dependencies = [
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.4",
+    "scipy>=1.18.1",
+]
+
+[dependency-groups]
+dev = [
+    "pypandoc-binary>=1.17",
+    "typst>=0.15.0",
+]
