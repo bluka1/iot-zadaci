@@ -8,7 +8,7 @@ PRIVREMENO = MAPA / "izvjestaj.typ"
 PDF = MAPA / "Internet_stvari_prvi_programski_zadatak_grupa10.pdf"
 
 UVOD = r"""
-#set document(title: "Internet stvari: Prvi programski zadatak", author: "Grupa 10")
+#set document(title: "Internet stvari: Prvi programski zadatak", author: ("Luka Batarelo", "Marko Pribisalić", "Josip Šeketa"))
 #set page(paper: "a4", margin: 2.4cm)
 #set text(lang: "hr", size: 11pt)
 #set par(justify: true)
@@ -31,6 +31,16 @@ UVOD = r"""
   #text(size: 12pt, style: "italic")[Odzivi sustava, stabilnost i frekvencijska analiza] \
   #v(2.5em)
   #text(size: 13pt)[Grupa 10]
+  #v(1em)
+  #table(
+    columns: 2,
+    stroke: none,
+    align: (left, left),
+    column-gutter: 2em,
+    [Luka Batarelo], [JMBAG 0067526658],
+    [Marko Pribisalić], [JMBAG 0171227435],
+    [Josip Šeketa], [JMBAG 0036429079],
+  )
 ]
 
 #pagebreak()
