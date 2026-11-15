@@ -18,4 +18,8 @@ Zadatak 3 je napravljen u mapi [stabilnost](./stabilnost)
 
 Zadatak 4 je napravljen u mapi [frekvencijska_analiza](./frekvencijska_analiza)
 
+### Cjeloviti izvještaj
+
+Svi zadaci s postupkom, slikama i kodom nalaze se u izvještaju u mapi [prvi_programski_zadatak](./prvi_programski_zadatak)
+
 ## 2. programski zadatak

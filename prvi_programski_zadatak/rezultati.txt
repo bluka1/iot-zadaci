@@ -1,0 +1,38 @@
+ZADATAK 1
+polovi G1: [-2.+5.657j -2.-5.657j]
+wn = 6.000 rad/s, zeta = 0.333, wd = 5.657 rad/s
+Tp:     izracun 0.555 s,  signal.step 0.555 s
+y_max:  izracun 0.997,    signal.step 0.997
+P.O.:   izracun 32.932 %, signal.step 32.932 %
+y(inf): izracun 0.750,    signal.step 0.750
+Ts:     procjena 2.000 s, signal.step (pojas 2 %) 1.851 s
+e_ss = 0.250
+
+ZADATAK 2
+polovi G2: [-3.+5.j -3.-5.j -4.+0.j], nula: [-2.]
+najveca razlika impulsnog odziva i izraza: 1.188e-14
+najveca razlika skokovnog odziva i izraza: 2.665e-15
+razlika dy_step/dt i y_imp: 4.521e-05
+y_imp(0) = 0.000, y_step(0) = 0.000, y_step(4 s) = 0.500
+
+ZADATAK 3.1
+polovi G3: [-4.281+0.j     0.141+2.046j  0.141-2.046j]
+D1 = 4.000, D2 = -6.000, D3 = -108.000
+ovojnica odziva: 0.278 +- 0.271 exp(0.141 t)
+period oscilacija: 3.072 s
+
+ZADATAK 3.2
+nazivnik zatvorenog kruga: s^3 + 20 s^2 + 121 s + (210 + K)
+K_kr = 2210.000, w_kr = 11.000 rad/s, period = 0.571 s
+K = 442.0: polovi [-14.801+0.j     -2.599+6.107j  -2.599-6.107j], max|y| = 0.836
+K = 2210.0: polovi [-20. +0.j   0.+11.j   0.-11.j], max|y| = 1.713
+K = 2652.0: polovi [-20.798 +0.j      0.399+11.724j   0.399-11.724j], max|y| = 8.580
+
+ZADATAK 4.1
+w =  0.000: |G4| = 1.000, A = 0.000 dB, fi = 0.000 st
+w =  6.000: |G4| = 0.162, A = -15.801 dB, fi = -90.000 st
+w = 36.000: |G4| = 0.020, A = -34.140 dB, fi = -133.409 st
+
+ZADATAK 4.2
+w_180 = 11.000 rad/s, w_kr = 11.000 rad/s
+A(w_180) = -13.979 dB, GM = 13.979 dB, 20 log(K_kr / K_t) = 13.979 dB
